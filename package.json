@@ -1,0 +1,18 @@
+{
+  "name": "nft-whitelist-merkletree-generator",
+  "version": "1.0.0",
+  "description": "Simple script that will generate a Merkle Tree to put in place a Whitelist system for your NFT collection.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["blockchain", "wallet", "balance", "nft", "whitelist", "merkle", "merkletree", "blockchain-address", "smart-contract"],
+  "author": "0xBlend",
+  "license": "MIT",
+  "dependencies": {
+    "ethereumjs-wallet": "^1.0.2",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.30"
+  }
+}
